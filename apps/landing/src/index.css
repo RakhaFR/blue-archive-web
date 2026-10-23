@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Arizonia&family=Bungee&family=Chewy&family=Slackey&family=Story+Script&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lovelo');
+@import "tailwindcss";
+@import "./style.css";
+
+@theme {
+  --font-bungee: "Bungee", cursive;
+  --font-slackey: "Slackey", cursive;
+  --font-arizonia: "Arizonia", cursive;
+  --font-storyscript: "Story Script", cursive;
+  --font-lovelo: "lovelo", cursive;
+  --font-chewy: "Chewy", cursive;
+  --font-agbalumo: "Agbalumo", cursive;
+}
