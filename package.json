@@ -8,10 +8,14 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=apps/landing",
+    "dev:all": "concurrently \"npm run dev:landing\" \"npm run dev:chat\"",
     "dev:landing": "npm run dev --workspace=apps/landing",
     "dev:chat": "npm run dev --workspace=apps/chat",
     "build": "npm run build --workspace=apps/landing && npm run build --workspace=apps/chat",
     "build:landing": "npm run build --workspace=apps/landing",
     "build:chat": "npm run build --workspace=apps/chat"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
   }
 }
